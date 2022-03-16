@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 mongoose
-  .connect("mongodb+srv://joao:1542653a@merntodo.wogwo.mongodb.net/mernTodo?retryWrites=true&w=majority", {
+  .connect("mongodb+srv://pedro:1542653a@merntodo.wogwo.mongodb.net/Todo?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
