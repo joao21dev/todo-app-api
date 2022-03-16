@@ -1,0 +1,23 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    //"text": "Jogar o lixo fora",
+    //"text": "Meditar 5 minutos".
+    "text": "Correr 5km"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/61dbc1d72a74d9aa81158ae8 
+//will delete "Meditar 5 minutos" todo
+
+###
+
+
+PUT http://localhost:3001/todo/complete/61dbd72b43d9189fb9c19dde
+//turn "Jogar o lixo fora" complete to true
